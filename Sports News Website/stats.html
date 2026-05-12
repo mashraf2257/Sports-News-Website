@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Cairo:wght@200..1000&family=Jomhuria&family=Jost:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="img/team.png" />
+    <link rel="stylesheet" href="css/Style.css" />
+    <link rel="stylesheet" href="css/stats.css" />
+    <title>Top Scorers Stats</title>
+  </head>
+
+  <body>
+    <header class="sHeader">
+      <div id="header">
+        <div>
+          <a href="index.html"
+            ><img src="img/soccer-logo.png" class="logo" alt=""
+          /></a>
+          <a href="index.html" class="line bungee-regular">Home</a>
+        </div>
+        <ul>
+          <li>
+            <a href="matches.html" class="line bungee-regular">Matches</a>
+          </li>
+          <li>
+            <a href="Standing.html" class="line bungee-regular">Standings</a>
+          </li>
+          <li><a href="stats.html" class="line bungee-regular">Stats</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="banner">
+      <img src="img/PL-Logo.png" alt="Premier League Logo" />
+    </div>
+
+    <h2 class="stats-title jost">Premier League Top Scorers</h2>
+
+ <div id="stats-parent">
+      <div class="stat-header-row">
+        <p>#</p>
+        <p>Player</p>
+        <p>Team</p>
+        <p>Goals</p>
+        <p>Assists</p>
+        <p>Pens</p>
+        <p>🟨</p>
+        <p>🟥</p>
+      </div>
+      
+      <div id="scorers-list"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="Js/stats.js"></script>
+  </body>
+</html>
