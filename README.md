@@ -58,7 +58,7 @@ Sports News Website/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/sports-news-website.git
+   git clone https://github.com/mashraf2257/sports-news-website.git
    cd sports-news-website
    ```
 
